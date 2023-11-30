@@ -1,7 +1,7 @@
 {
     "name": "azalea",
     "version": "1.0.0",
-    "repository": "https://github.com/acquitelol/azalea.git",
+    "repository": "https://github.com/NajmAjmal/Azalea-maths.git",
     "author": "Rosie",
     "scripts": {
         "build": "rollup -c --configPlugin esbuild",

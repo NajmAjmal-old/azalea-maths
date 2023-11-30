@@ -1,5 +1,5 @@
 {
-    "name": "Azalea",
+    "name": "Azalea Maths",
     "version": "3.5.6",
     "description": "The cutest SparxMaths extension for Chromium ~!",
     "manifest_version": 3,
@@ -13,7 +13,7 @@
         "default_icon": {
             "128": "assets/logo.png"
         },
-        "default_title": "Azalea"
+        "default_title": "Azalea Maths"
     },
 
     "permissions": [
@@ -62,7 +62,7 @@
     "declarative_net_request": {
         "rule_resources": [
             {
-                "id": "azalea-remove-csp",
+                "id": "Azalea-maths-remove-csp",
                 "enabled": true,
                 "path": "headers.json"
             }

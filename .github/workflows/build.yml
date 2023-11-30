@@ -1,4 +1,4 @@
-name: Build Azalea and Release
+name: Build Azalea-maths and Release
 on:
   push:
   workflow_dispatch:

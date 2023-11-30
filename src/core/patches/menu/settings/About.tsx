@@ -78,32 +78,8 @@ function About() {
                     Furthermore, any which look the same as {manifest.name} but were not downloaded from <a href={repository.plain + '/releases'} target='blank'>official sources</a> may contain <strong>malware</strong>.
                 </p>
             </div>
-
-            <Dividers.Small />
-
-            <div style={styles.top}>
-                <p style={{ marginBlock: 0 }}>
-                    <strong>To request usage of any code or report violating content:</strong>
-                    <br />
-                    <ul style={{ marginBlock: '0.25em', paddingLeft: '2em' }}>
-                        <li>↝ Contact <strong>acquitefx@gmail.com</strong> via Email</li>
-                        <br />
-                        <li>↝ Contact <strong>rosie.pie</strong> or <strong>rosie.nya</strong> via Discord</li>
-                        <br />
-                        <li>↝ <a href={repository.plain + '/issues/new'} target={'blank'}>Raise an issue</a> via the GitHub repository</li>
-                    </ul>
-                </p>
-            </div>
         </>}
         extra={<div style={{ marginBlock: '0.25em' }}>
-            <p style={{ marginBlock: 0 }}>
-                Please <strong>be cautious</strong> and only ever download {manifest.name} from <strong>
-                    <a href={repository.plain + '/releases'} target='blank'>official sources</a>
-                </strong>.
-            </p>
-            <h4>
-                Thank you for installing my extension ♡
-            </h4>
         </div>}
     />;
 }

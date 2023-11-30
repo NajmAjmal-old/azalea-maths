@@ -1,4 +1,4 @@
-// This code is inspired by Vencord, but I took my own spin on it ;3
+// This code is inspired by Vencord, but I took my own spin on it
 // https://github.com/Vendicated/Vencord/blob/main/src/utils/Logger.ts
 import utilities from './utilities';
 import { storages } from '@core/handlers/state';
