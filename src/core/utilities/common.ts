@@ -4,7 +4,7 @@ const { preferences } = storages;
 
 const name = {
     defaults: {
-        firstName: 'Rosie',
+        firstName: '',
         lastName: ':3'
     },
 
@@ -22,13 +22,13 @@ const name = {
 };
 
 const repository = {
-    user: 'https://github.com/acquitelol',
+    user: 'https://github.com/NajmAjmal',
 
     get plain() {
         return this.user + '/azalea';
     },
 
-    raw: 'https://raw.githubusercontent.com/acquitelol/azalea',
+    raw: 'https://raw.githubusercontent.com/NajmAjmal/Azalea-maths',
 };
 
 const getImage = (name: string) => `${repository.raw}/sparx-v2/extension/assets/${name}`;
