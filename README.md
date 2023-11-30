@@ -48,8 +48,6 @@
 
 - Allows you to change the icon used in Sparx by providing an image URL! (editable from **Menu > Settings**, off by default).
 
-<img src="extension/assets/divider.png">
-
 
 Made by Rosie - Improved by Najm Ajmal
 
