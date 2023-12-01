@@ -24,15 +24,13 @@
     ],
 
     "host_permissions": [
-        "*://*.sparxmaths.uk/*",
-        "https://www.sparxmaths.uk/*",
-        "*://auth.sparxmaths.uk/*"
+        "https://www.sparxmaths.uk/*"
     ],
 
     "content_scripts": [
         {
             "js": [ "index.js" ],
-            "matches": [ "https://*.sparxmaths.uk/*", "https://sparxmaths.uk/*" ],
+            "matches": [ "https://sparxmaths.uk/*" ],
             "run_at": "document_start"
         }
     ],
@@ -42,7 +40,7 @@
     },
 
     "externally_connectable": {
-        "matches": [ "https://*.sparxmaths.uk/*", "https://sparxmaths.uk/*" ]
+        "matches": [ "https://sparxmaths.uk/*" ]
     },
 
     "web_accessible_resources": [
@@ -54,7 +52,7 @@
                 "core.css"
             ],
             "matches": [
-                "https://*.sparxmaths.uk/*"
+                "https://sparxmaths.uk/*"
             ]
         }
     ],
